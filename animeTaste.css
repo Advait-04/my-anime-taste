@@ -1,0 +1,157 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 2px;
+    background-image: linear-gradient(135deg, #2afadf 10%, #4c83ff 100%);
+    font-family: "Montserrat", "Epilogue", "Public Sans";
+
+    height: 100%;
+    padding: 1rem;
+}
+
+#top-container {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#main-container {
+    margin-bottom: 6rem !important;
+    margin-top: 5rem !important;
+}
+
+#top-bar {
+    background-color: #152232;
+    color: #a0b1c5;
+    height: 10%;
+}
+
+#side-bar {
+    background-color: #152232;
+    color: #a0b1c5;
+}
+
+#side-bar a {
+    text-decoration: none;
+    color: #a0b1c5;
+}
+
+.cards {
+    position: relative;
+    background-color: white;
+    color: #152232;
+    height: 254px;
+    overflow: hidden;
+    box-shadow: 3px 5px rgba(76, 131, 255, 0.5);
+    font-family: "Public Sans";
+}
+
+.image-wrapper {
+    position: relative;
+    width: 35%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    position: relative;
+    width: 65%;
+}
+
+.about-main {
+    width: 100%;
+    height: 88%;
+}
+
+.about-main-header {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(239, 247, 251);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.about-main-body {
+    width: 100%;
+    height: 75%;
+    padding: 10px;
+}
+
+.about-footer {
+    width: 100%;
+    height: 13%;
+    background-color: rgb(239, 247, 251);
+    flex-flow: wrap;
+}
+
+.genre {
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-right: 8px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    line-height: 0.1rem;
+    text-transform: lowercase;
+}
+
+.genre:first-child {
+    margin-left: 5px;
+}
+
+.iframe-cards {
+    background-color: black;
+    color: white;
+    width: 0%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.one-liner {
+    font-weight: bolder;
+}
+
+.desc {
+    float: left;
+    padding-top: 10px;
+}
+
+.edn {
+    float: right;
+    font-size: 0.8rem;
+}
+
+@keyframes iframe-cards-animation-forward {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes iframe-cards-animation-backward {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}

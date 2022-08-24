@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anime Taste</title>
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat"
+            rel="stylesheet"
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Epilogue"
+            rel="stylesheet"
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Public Sans"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+
+        <!-- favicon -->
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="Assets/Images/favicon/favicon.ico"
+        />
+
+        <link rel="stylesheet" href="animeTaste.css" />
+    </head>
+    <body>
+        <div
+            class="container-fluid p-0 h-100 mt-xxl-4 mb-xxl-5 mt-xl-3 mb-xl-3"
+            id="top-container"
+        >
+            <div
+                class="container-fluid d-flex justify-content-center fw-bold fs-1 p-3"
+                id="top-bar"
+            >
+                <span>my Anime Taste</span>
+            </div>
+            <div class="row m-5 gx-5 gy-4" id="main-container">
+                <div
+                    class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    id=""
+                >
+                    <div
+                        class="cards d-flex flex-row flex-wrap"
+                        id="card-1"
+                        onmouseover="onHover(this)"
+                        onmouseout="onHoverEnd(this)"
+                    >
+                        <div class="image-wrapper d-flex">
+                            <img
+                                src="Assets/Images/Fullmetal Alchemist Cover.jpg"
+                                alt="fullmetal.jpg"
+                            />
+                        </div>
+                        <div
+                            class="about d-flex flex-column justify-content-end"
+                        >
+                            <div class="about-main">
+                                <div class="about-main-header">
+                                    Fullmetal Alchemist Brotherhood
+                                </div>
+                                <div class="about-main-body">
+                                    <span class="one-liner"
+                                        >"The Definition of a Complete Story"
+                                    </span>
+                                    <span class="desc">
+                                        This story of two brothers explores both
+                                        simple and complex themes alike,
+                                        alongwith some comedy and beatifully
+                                        paced action sequences.
+                                    </span>
+                                </div>
+                            </div>
+                            <div
+                                class="about-footer d-flex p-1 overflow-hidden"
+                            >
+                                <div class="genre">action</div>
+                                <div class="genre">adventure</div>
+                                <div class="genre">drama</div>
+                                <div class="genre">fantasy</div>
+                            </div>
+                        </div>
+                        <!-- iframe cards -->
+                        <div class="iframe-cards" id="iframe-1">
+                            <iframe
+                                src="https://www.youtube.com/embed/kx0nBaS_q50"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    id=""
+                >
+                    <div
+                        class="cards d-flex flex-row flex-wrap"
+                        id="card-2"
+                        onmouseover="onHover(this)"
+                        onmouseout="onHoverEnd(this)"
+                    >
+                        <div class="image-wrapper d-flex">
+                            <img
+                                src="Assets/Images/Oregairu Cover.png"
+                                alt="oregairu.jpg"
+                            />
+                        </div>
+                        <div
+                            class="about d-flex flex-column justify-content-end"
+                        >
+                            <div class="about-main">
+                                <div class="about-main-header">Oregairu</div>
+                                <div class="about-main-body">
+                                    <span class="one-liner"
+                                        >"Peeling away the Facade"</span
+                                    >
+                                    <span class="desc">
+                                        The rom-com that takes its characters
+                                        seriously. With one of the most
+                                        interesting protag, it delivers a well
+                                        rounded story with one of the most
+                                        satisfying confessions.
+                                    </span>
+                                </div>
+                            </div>
+                            <div
+                                class="about-footer d-flex p-1 overflow-hidden"
+                            >
+                                <div class="genre">comedy</div>
+                                <div class="genre">drama</div>
+                                <div class="genre">romance</div>
+                                <div class="genre">slice of life</div>
+                            </div>
+                        </div>
+
+                        <!-- iframe card -->
+                        <iframe
+                            src="https://www.youtube.com/embed/u-bpwWPNEpE"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    id=""
+                >
+                    <div
+                        class="cards d-flex flex-row flex-wrap"
+                        id="card-3"
+                        onmouseover="onHover(this)"
+                        onmouseout="onHoverEnd(this)"
+                    >
+                        <div class="image-wrapper d-flex">
+                            <img
+                                src="Assets/Images/Silent Voice Cover.jpg"
+                                alt="silentvoice.jpg"
+                            />
+                        </div>
+                        <div
+                            class="about d-flex flex-column justify-content-end"
+                        >
+                            <div class="about-main">
+                                <div class="about-main-header">
+                                    A Silent Voice
+                                </div>
+                                <div class="about-main-body">
+                                    <span class="one-liner">
+                                        "Living with your Faults"
+                                    </span>
+
+                                    <span class="desc">
+                                        With mesmerizing artwork and animation,
+                                        the movie tells a story of regret and
+                                        self-blame with a meaningful and
+                                        metaphorical ending.
+                                    </span>
+                                </div>
+                            </div>
+                            <div
+                                class="about-footer d-flex p-1 overflow-hidden"
+                            >
+                                <div class="genre">drama</div>
+                                <div class="genre">romance</div>
+                                <div class="genre">slice of life</div>
+                            </div>
+                        </div>
+
+                        <!-- iframe card -->
+                        <iframe
+                            src="https://www.youtube.com/embed/Sy4bPCuzfiQ"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    id=""
+                >
+                    <div
+                        class="cards d-flex flex-row flex-wrap"
+                        id="card-4"
+                        onmouseover="onHover(this)"
+                        onmouseout="onHoverEnd(this)"
+                    >
+                        <div class="image-wrapper d-flex">
+                            <img
+                                src="Assets/Images/Promised Neverland Cover.jpg"
+                                alt="fullmetal.jpg"
+                                id="test-img"
+                            />
+                        </div>
+                        <div
+                            class="about d-flex flex-column justify-content-end"
+                        >
+                            <div class="about-main">
+                                <div class="about-main-header">
+                                    The Promised Neverland
+                                </div>
+                                <div class="about-main-body">
+                                    <span class="one-liner">
+                                        "Battling the Unknown"
+                                    </span>
+                                    <span class="desc">
+                                        Keeps the viewers on edge with its
+                                        unexpected writing and unusual senarios.
+                                        It's the battle of the brains to survive
+                                        the unknown.
+                                    </span>
+                                    <span class="edn"
+                                        >--editors note: don't watch season
+                                        2.</span
+                                    >
+                                </div>
+                            </div>
+                            <div
+                                class="about-footer d-flex p-1 overflow-hidden"
+                            >
+                                <div class="genre">drama</div>
+                                <div class="genre">fantasy</div>
+                                <div class="genre">horror</div>
+                                <div class="genre">mystery</div>
+                            </div>
+                        </div>
+
+                        <!-- iframe card -->
+                        <iframe
+                            src="https://www.youtube.com/embed/ApLudqucq-s"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    id=""
+                >
+                    <div
+                        class="cards d-flex flex-row flex-wrap"
+                        id="card-5"
+                        onmouseover="onHover(this)"
+                        onmouseout="onHoverEnd(this)"
+                    >
+                        <div class="image-wrapper d-flex">
+                            <img
+                                src="Assets/Images/Death Note Cover.jpg"
+                                alt="deathnote.jpg"
+                            />
+                        </div>
+                        <div
+                            class="about d-flex flex-column justify-content-end"
+                        >
+                            <div class="about-main">
+                                <div class="about-main-header">Death Note</div>
+                                <div class="about-main-body">
+                                    <span class="one-liner">
+                                        "The Cat and Mouse game of Morality"
+                                    </span>
+                                    <span class="desc">
+                                        This anime tows the line between black
+                                        and white, with one of the most iconic
+                                        duo and a fantastic plotline.
+                                    </span>
+                                </div>
+                            </div>
+                            <div
+                                class="about-footer d-flex p-1 overflow-hidden"
+                            >
+                                <div class="genre">mystery</div>
+                                <div class="genre">psychological</div>
+                                <div class="genre">supernatural</div>
+                                <div class="genre">thriller</div>
+                            </div>
+                        </div>
+
+                        <!-- iframe card -->
+                        <iframe
+                            src="https://www.youtube.com/embed/NlJZ-YgAt-c"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    id=""
+                >
+                    <div
+                        class="cards d-flex flex-row flex-wrap"
+                        id="card-6"
+                        onmouseover="onHover(this)"
+                        onmouseout="onHoverEnd(this)"
+                    >
+                        <div class="image-wrapper d-flex">
+                            <img
+                                src="Assets/Images/Fate Cover.png"
+                                alt="fullmetal.jpg"
+                            />
+                        </div>
+                        <div
+                            class="about d-flex flex-column justify-content-end"
+                        >
+                            <div class="about-main">
+                                <div class="about-main-header">Fate Series</div>
+                                <div class="about-main-body">
+                                    <span class="one-liner">
+                                        "History of the Twisted"
+                                    </span>
+                                    <span class="desc">
+                                        The king of all convoluted timelines is
+                                        a battle royale of historical figures
+                                        for the idea of a wish being granted by
+                                        a magical device.
+                                    </span>
+                                </div>
+                            </div>
+                            <div
+                                class="about-footer d-flex p-1 overflow-hidden"
+                            >
+                                <div class="genre">action</div>
+                                <div class="genre">fantasy</div>
+                                <div class="genre">psychological</div>
+                                <div class="genre">supernatural</div>
+                            </div>
+                        </div>
+
+                        <!-- iframe card -->
+                        <iframe
+                            src="https://www.youtube.com/embed/AMr5pXzpvP0"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Script Include -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+            window.jQuery ||
+                document.write(
+                    '<script src="js/vendor/jquery-1.12.0.min.js"><\/script>'
+                );
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+        <script src="animeTaste.js"></script>
+    </body>
+</html>
